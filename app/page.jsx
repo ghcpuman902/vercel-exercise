@@ -206,7 +206,7 @@ _Thanks for reading to the end!_
                         },
                         pre(props) {
                             const { node, ...rest } = props;
-                            return <pre className="rounded border border-stone-200 dark:border-stone-600 bg-stone-100 dark:bg-stone-800 my-2 p-2 font-mono text-sm font-semibold" {...rest} />;
+                            return <pre className="rounded border border-stone-200 bg-stone-100 my-2 p-2 font-mono text-sm font-semibold" {...rest} />;
                         },
                         a(props) {
                             const { node, ...rest } = props;
